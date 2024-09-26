@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
+    'crispy_bootstrap5',  
+   
 
     #app
     'lmsapp',
@@ -53,6 +56,9 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'lms.urls'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
+CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5'
 
 TEMPLATES = [
     {
